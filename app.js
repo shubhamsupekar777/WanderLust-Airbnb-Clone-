@@ -223,6 +223,12 @@ app.use("/listings", listingRouter);
 app.use("/listings/:id/reviews", reviewRouter);
 app.use("/", userRouter);
 
+// ✅ Root Route
+app.get("/", (req, res) => {
+    res.redirect("/listings"); // Redirect to main listings page
+});
+
+
 // Error handler
 app.use((err, req, res, next) => {
     const { statusCode = 500, message = "Something went wrong" } = err;
