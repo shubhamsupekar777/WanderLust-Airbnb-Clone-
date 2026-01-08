@@ -33,15 +33,7 @@ Built with **Node.js, Express.js, MongoDB, and EJS**, it provides a seamless tra
 | **Authentication** | Passport.js |
 | **Cloud Storage** | Cloudinary |
 | **Environment Management** | dotenv |
-| **Deployment** | Render / Railway |
+| **Deployment** | Render /  |
 
----
 
-## ⚙️ Installation & Setup Guide
 
-Follow these steps to run the project locally 👇
-
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/<your-username>/wanderlust.git
-cd wanderlust
